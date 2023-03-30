@@ -8,10 +8,10 @@ USE academic_settings;
 GO
 
 CREATE TABLE classes (
-  ClassID varchar(10),
-  InstructorsID varchar(20),
-  ClassName varchar(20),
-  AttendanceType varchar(20)
+  ClassID varchar(10) NOT NULL,
+  InstructorsID varchar(20) NOT NULL,
+  ClassName varchar(20) NOT NULL,
+  AttendanceType varchar(20) NOT NULL
 );
 
 --
@@ -30,10 +30,10 @@ INSERT INTO "classes" (ClassID, InstructorsID, ClassName, AttendanceType) VALUES
 --
 
 CREATE TABLE instructors (
-  InstructorsID varchar(20),
-  IFirstName varchar(20),
-  ILastName varchar(20),
-  IEmail varchar(25),
+  InstructorsID varchar(20) NOT NULL,
+  IFirstName varchar(20) NOT NULL,
+  ILastName varchar(20) NOT NULL,
+  IEmail varchar(25) NOT NULL,
   IsAdviser tinyint NOT NULL
 );
 
@@ -53,10 +53,10 @@ INSERT INTO instructors ("InstructorsID", "IFirstName", "ILastName", "IEmail", "
 --
 
 CREATE TABLE major (
-  MajorID varchar(20),
-  MajorName varchar(20),
+  MajorID varchar(20) NOT NULL,
+  MajorName varchar(20) NOT NULL,
   TotalCredits int NOT NULL,
-  EstimatedCompletion varchar(20),
+  EstimatedCompletion varchar(20) NOT NULL,
   LaptopRequired tinyint NOT NULL
 );
 
@@ -76,8 +76,8 @@ INSERT INTO major ("MajorID", "MajorName", "TotalCredits", "EstimatedCompletion"
 --
 
 CREATE TABLE majorclasses (
-  MajorID varchar(20),
-  ClassID varchar(20)
+  MajorID varchar(20) NOT NULL,
+  ClassID varchar(20) NOT NULL
 );
 
 --
@@ -96,8 +96,8 @@ INSERT INTO majorclasses ("MajorID", "ClassID") VALUES
 --
 
 CREATE TABLE studentclasses (
-  StudentID varchar(20),
-  ClassID varchar(20)
+  StudentID varchar(20) NOT NULL,
+  ClassID varchar(20) NOT NULL
 );
 
 --
@@ -118,11 +118,11 @@ INSERT INTO studentclasses ("StudentID", "ClassID") VALUES
 --
 
 CREATE TABLE students (
-  StudentID varchar(20),
-  MajorID varchar(20),
-  SFirstName varchar(20),
-  SLastName varchar(20),
-  GPA float,
+  StudentID varchar(20) NOT NULL,
+  MajorID varchar(20) NOT NULL,
+  SFirstName varchar(20) NOT NULL,
+  SLastName varchar(20) NOT NULL,
+  GPA float NOT NULL,
   GradYear date NOT NULL
 );
 
