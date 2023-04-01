@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "5IFq3jzDy6VHsdplWqpHDr5TZvmttWywpPNsG76OlmJ59lHyaJJbRW8lpe5RmCXElSAzuVxHeCyVAQfS1c3hqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tard-\\OneDrive\\Desktop\\School Assignments\\C# 2\\Week 11\\C-Group4\\Group_4_DB\\Group_4_DB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tard-\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
+    "C:\\Users\\tard-\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\tard-\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\tard-\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\tard-\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\tard-\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\tard-\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
