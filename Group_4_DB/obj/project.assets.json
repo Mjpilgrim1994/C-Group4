@@ -11169,23 +11169,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tard-\\.nuget\\packages\\": {},
-    "Z:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Owner\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tard-\\OneDrive\\Desktop\\School Assignments\\C# 2\\Week 11\\C-Group4\\Group_4_DB\\Group_4_DB.csproj",
+      "projectUniqueName": "C:\\Users\\Owner\\Documents\\GitHub\\C-Group4\\Group_4_DB\\Group_4_DB.csproj",
       "projectName": "Group_4_DB",
-      "projectPath": "C:\\Users\\tard-\\OneDrive\\Desktop\\School Assignments\\C# 2\\Week 11\\C-Group4\\Group_4_DB\\Group_4_DB.csproj",
-      "packagesPath": "C:\\Users\\tard-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tard-\\OneDrive\\Desktop\\School Assignments\\C# 2\\Week 11\\C-Group4\\Group_4_DB\\obj\\",
+      "projectPath": "C:\\Users\\Owner\\Documents\\GitHub\\C-Group4\\Group_4_DB\\Group_4_DB.csproj",
+      "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Owner\\Documents\\GitHub\\C-Group4\\Group_4_DB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "Z:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tard-\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11194,6 +11194,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11264,7 +11265,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
